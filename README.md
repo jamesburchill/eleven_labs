@@ -42,3 +42,6 @@ Check out the various functions to see just how easy it easy to use.
     
 ```
 
+## Notes
+
+This app was designed to run on a Mac. It uses the `afplay` command to play the audio file. If this is not available on your system, you will need to change the `play_audio` function to use a different command.
