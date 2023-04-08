@@ -40,9 +40,13 @@ def speak(text, v_id):
     response = requests.post(url, headers=_headers, json={"text": text})
     # Check for errors
     response.raise_for_status()
+    play_audio(response.content)
+
+
+def play_audio(c):
     # Now save the audio to a temp file and play it (file auto deletes when exiting 'with')
     with tempfile.NamedTemporaryFile(suffix=".wav") as f:
-        f.write(response.content)
+        f.write(c)
         os.system(f"afplay {f.name}")
 
 
