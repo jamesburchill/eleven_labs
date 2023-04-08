@@ -1,6 +1,6 @@
-#  Copyright (c) 2023 - James C. Burchill - All rights reserved
-#  File Location: /Users/jamesburchill/Documents/DEV/eleven_labs/basic_functions.py
-#  Last Updated: 2023-04-07, 8:27 p.m.
+#  Copyright (c) 2023 - James C. Burchill
+#  File Location: ~/eleven_labs/basic_functions.py
+#  Last Updated: 2023-04-07
 
 import os
 import sys
