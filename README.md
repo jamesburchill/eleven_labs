@@ -2,7 +2,7 @@
 
 ## Important
 
-You need an ELEVEN LABS API. 
+You need an ELEVEN LABS API. (They're free!)
 
 You can get one here: https://elevenlabs.io
 
