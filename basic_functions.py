@@ -40,6 +40,7 @@ def speak(text, v_id):
     response = requests.post(url, headers=_headers, json={"text": text})
     # Check for errors
     response.raise_for_status()
+    # Play the audio
     play_audio(response.content)
 
 
